@@ -1,0 +1,31 @@
+body{
+  background-image: url("https://unsplash.imgix.net/photo-1422513391413-ddd4f2ce3340?dpr=2&fit=crop&fm=jpg&h=700&q=75&w=1050");
+  height: auto;
+  margin: auto;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.Title {
+  font-family: 'Josefin Sans', sans-serif;
+  color: lightgrey;
+  height: 350px;
+  text-align: center;
+  font-size: 7em;
+  padding-top: 100px;
+  padding-bottom: 0%;
+}
+
+.Quote {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #FDFDFD;
+  text-align: center;
+  font-size: 2em;
+}
+
+.sub-heading {
+  font-family: 'Josefin Sans', sans-serif;
+  color: lightgrey;
+  text-align: center;
+  font-size: 3em;
+}
