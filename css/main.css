@@ -8,24 +8,36 @@ body{
 
 .Title {
   font-family: 'Josefin Sans', sans-serif;
-  color: lightgrey;
+  color: white;
   height: 350px;
   text-align: center;
-  font-size: 7em;
+  font-size: 100px;
   padding-top: 100px;
-  padding-bottom: 0%;
-}
-
-.Quote {
-  font-family: 'Josefin Sans', sans-serif;
-  color: #FDFDFD;
-  text-align: center;
-  font-size: 2em;
 }
 
 .sub-heading {
   font-family: 'Josefin Sans', sans-serif;
   color: lightgrey;
   text-align: center;
-  font-size: 3em;
+  font-size: 50px;
+}
+
+.Quote {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #FDFDFD;
+  text-align: center;
+  font-size: 50px;
+}
+
+span {
+  color: darkgrey;
+  font-size: 40px;
+  display: inline-block;
+}
+
+footer {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 25px;
 }
