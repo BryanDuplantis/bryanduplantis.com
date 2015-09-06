@@ -21,6 +21,21 @@ p {
   font-size: 30px;
 }
 
+.profilePic {
+  margin-top: 30px;
+  height: 350px;
+  width: 300px;
+}
+
+.aboutMeTxt {
+  text-align: left;
+}
+
+.headlineTxt {
+  font-size: 40px;
+  margin: auto;
+}
+
 #navBarName {
   font-size: 2.2em;
   height: 10px;
