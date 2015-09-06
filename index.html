@@ -16,20 +16,113 @@
       <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
           <div class="navbar-text pull-left">
-            <p id="frontQuote">Bryan Duplantis | Apprentice Software Developer</p>
+            <p id="navTopText">Bryan Duplantis | Apprentice Software Developer</p>
           </div>
-          <div class="navbar-text pull-right">
-            <a href="http://www.facebook.com/BryanDuplantis"><i class="fa fa-facebook-square fa-2x"></i></a>
-            <a href="http://www.twitter.com/duplantis"><i class="fa fa-twitter fa-2x"></i></a>
-            <a href="https://github.com/BryanDuplantis"><i class="fa fa-github fa-2x"></i></a>
-            <a href="https://www.linkedin.com/in/bryanduplantis"><i class="fa fa-linkedin fa-2x"></i></a>
+          <div class="navbar-text pull-right navIcons">
+            <button type="button" class="btn btn-default navbar-btn hover">About Me</button>
+            <button type="button" class="btn btn-default navbar-btn hover">Skills</button>
+            <button type="button" class="btn btn-default navbar-btn hover">Projects</button>
+            <button type="button" class="btn btn-default navbar-btn hover">Contact Me</button>
           </div>
         </div>
       </div>
 
-       <!-- Current Projects Section -->
-      <div class="well well-large">
-        <p>Current Projects</p>
+      <!-- About Me Section -->
+
+      <div class="well well-sm aboutMe">
+        <p>Who Am I?</p>
+      </div>
+      <!-- <div class="well well-lg">
+        <p>I'm currently in the midst of the Nashville Software School's 6-month, total immersive Full-Time Web Developer Bootcamp, having finished The Front End Development Foundations class at the end of June, where I was introduced to, and continue to spend hours studying and implementing the standard technologies for anything that runs in a browser: HTML5, CSS3 and JavaScript.</p>
+        <p>For the next month I'm immersed in the Software Development Foundations class, focusing all of my energy on Node.js, an open source, cross-platform runtime environment for server-side and networking applications.</p>
+      </div> -->
+
+      <!-- Technical Skills Section -->
+
+      <div class="well well-sm">
+        <p>Skills</p>
+      </div>
+      <div class="well well-lg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+
+                <div class="col-lg-3">
+                  <div class="col-lg-3">
+                    <img src="images/jqueryv1.png" alt="HTML5/CSS3">
+                  </div>
+                    <h3>HTML5/CSS3</h3>
+                </div>
+
+                <div class="col-lg-3">
+                  <div class="col-lg-3">
+                    <img src="images/jqueryv1.png" alt="Bootstrap">
+                  </div>
+                    <h3>Bootstrap</h3>
+                </div>
+
+                <div class="col-lg-3">
+                  <div class="col-lg-3">
+                    <img src="images/jqueryv1.png" alt="JavaScript">
+                  </div>
+                    <h3>JavaScript</h3>
+                </div>
+
+                <div class="col-lg-3">
+                  <div class="col-lg-3">
+                    <img src="images/jqueryv1.png" alt="jQuery">
+                  </div>
+                    <h3>jQuery</h3>
+                </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="well well-lg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+
+                <div class="col-lg-3">
+                  <div class="col-lg-3">
+                    <img src="images/angular-jsv1.png" alt="AngularJS">
+                  </div>
+                    <h3>AngularJS</h3>
+                </div>
+
+                <div class="col-lg-3">
+                  <div class="col-lg-3">
+                    <img src="images/gulpv1.png" alt="Gulp">
+                  </div>
+                    <h3>Gulp</h3>
+                </div>
+
+                <div class="col-lg-3">
+                  <div class="col-lg-3">
+                    <img src="images/nodejsv1.png" alt="Node.js/Express">
+                  </div>
+                    <h3>Node.js/Express</h3>
+                </div>
+
+                <div class="col-lg-3">
+                  <div class="col-lg-3">
+                    <img src="images/mongov1.png" alt="MongoDB/SQL">
+                  </div>
+                    <h3>MongoDB/SQL</h3>
+                </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projects Section -->
+
+      <!-- Current Projects Section -->
+      <div class="well well-sm">
+        <p>Projects</p>
       </div>
 
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -44,19 +137,13 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
           <div class="item active">
-            <img src="images/Quotev1.jpg" alt="Don't Quote Me">
-            <div class="carousel-caption">
-            </div>
+            <img src="images/Weatherv2.jpg" alt="Weather Or Not">
           </div>
           <div class="item">
-            <img src="images/Weatherv2.jpg" alt="Weather Or Not">
-            <div class="carousel-caption">
-            </div>
+            <img src="images/Quotev1.jpg" alt="Don't Quote Me">
           </div>
           <div class="item">
             <img src="images/ShowMeTheMoviev1.jpg" alt="Show Me The Movie">
-            <div class="carousel-caption">
-            </div>
           </div>
         </div>
 
@@ -69,16 +156,9 @@
         </a>
       </div> <!-- Carousel -->
 
-      <!-- About Me Section -->
-      <div class="well well-large">
-        <p>Who Am I?</p>
-      </div>
-      <!-- Technical Skills Section -->
-      <div class="well well-large">
-        <p>What Are My Skills?</p>
-      </div>
-      <div class="well well-large"></div>
-      <div class="well well-large"></div>
+      <hr>
+
+      <hr>
 
       <!-- Contact Form -->
 
@@ -119,7 +199,7 @@
 
                     <div class="form-group">
                         <div class="col-md-12 text-center">
-                            <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+                            <button type="submit" class="btn btn-primary btn-lg submitBtn">Submit</button>
                         </div>
                     </div>
 
@@ -131,8 +211,18 @@
       </div>
 
 
-       <div class="navbar navbar-inverse navbar-fixed-bottom">
-        <p id="frontQuote">"Those who love shall be made invincible." -- Walt Whitman</p>
+      <div class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container">
+          <div class="navbar-text pull-left">
+            <p id="footerQuote">"Those who love shall be made invincible." -- Walt Whitman</p>
+          </div>
+          <div class="navbar-text pull-right">
+              <a href="http://www.facebook.com/BryanDuplantis"><i class="fa fa-facebook-square fa-2x"></i></a>
+              <a href="http://www.twitter.com/duplantis"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="https://github.com/BryanDuplantis"><i class="fa fa-github fa-2x"></i></a>
+              <a href="https://www.linkedin.com/in/bryanduplantis"><i class="fa fa-linkedin fa-2x"></i></a>
+          </div>
+        </div>
       </div>
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
