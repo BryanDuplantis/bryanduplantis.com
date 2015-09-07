@@ -51,8 +51,13 @@ p {
 }
 
 .navbar-text > a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
+}
+
+.navbar-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .well-sm {
@@ -99,10 +104,6 @@ p {
 .text-center {
   font-family: 'Special Elite';
   font-size: 40px;
-}
-
-.submitBtn {
-  margin-bottom: 70px;
 }
 
 #footerQuote {
