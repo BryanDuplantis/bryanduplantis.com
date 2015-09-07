@@ -12,7 +12,7 @@ body {
     height:100%;
     max-height:100%;
     max-width:100%;
-    margin:0 auto;
+    /*margin:0 auto;*/
     text-align:center;
     padding-top: 70px;
 }
@@ -29,6 +29,10 @@ p {
 
 .aboutMeTxt {
   text-align: left;
+}
+
+.aboutMe {
+  margin-top: 25px;
 }
 
 .headlineTxt {
@@ -49,8 +53,17 @@ p {
     color: inherit;
     text-decoration: none;
 }
-.aboutMe {
-  margin-top: 50px;
+
+.well-sm {
+  background: #D9FFD9;
+}
+
+.well-lg {
+  background: #FFFFDE;
+}
+
+.profilePic {
+  border-radius: 20px;
 }
 
 .fa {
@@ -68,6 +81,10 @@ p {
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.skills_container {
+  background: lightyellow;
 }
 
 #navTopText {

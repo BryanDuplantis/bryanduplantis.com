@@ -1,7 +1,7 @@
 </doctype html>
   <html>
     <head>
-      <title>Love Is All You Need</title>
+      <title>Bryan Duplantis | Portfolio</title>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,41 +18,49 @@
           <div class="navbar-text pull-left">
             <p id="navTopText">Bryan Duplantis | Apprentice Software Developer</p>
           </div>
-          <div class="navbar-text pull-right navIcons">
-            <button type="button" class="btn btn-default navbar-btn hover">About Me</button>
-            <button type="button" class="btn btn-default navbar-btn hover">Skills</button>
-            <button type="button" class="btn btn-default navbar-btn hover">Projects</button>
-            <button type="button" class="btn btn-default navbar-btn hover">Contact Me</button>
+          <div class="navbar-text pull-right navIcons hidden-xs">
+            <a href="#aboutme_container"><button type="button" class="btn btn-default navbar-btn hover" a href="#about_container">About Me</button></a>
+            <a href="#skills_container"><button type="button" class="btn btn-default navbar-btn hover">Skills</button></a>
+            <a href="#projects_container"><button type="button" class="btn btn-default navbar-btn hover">Projects</button></a>
+            <a href="#contact_container"><button type="button" class="btn btn-default navbar-btn hover">Contact Me</button></a>
           </div>
         </div>
       </div>
 
       <!-- About Me Section -->
 
-      <div class="well well-sm aboutMe">
+      <div class="well well-sm" id="aboutme_container">
         <p class="headlineTxt">Who Am I?</p>
       </div>
 
       <div class="well well-lg">
+
         <div class="container">
           <div class="row">
             <div class="col-md-4">
-              <img src="images/BryanProfile.png" class="profilePic">
+              <img src="images/BryanProfile.jpg" class="profilePic">
             </div>
 
+        <div class="well well-lg">
+          <p class="aboutMeTxt">I'm currently in the midst of the Nashville Software School's 6-month, total immersive Full-Time Web Developer Bootcamp, having finished The Front End Development Foundations class at the end of June.</p>
+          <br>
+          <p class="aboutMeTxt">For the next month I'm immersed in the Software Development Foundations class, focusing all of my energy on Node.js.</p>
+        </div>
 
-      <div class="well well-lg">
-        <p class="aboutMeTxt">I'm currently in the midst of the Nashville Software School's 6-month, total immersive Full-Time Web Developer Bootcamp, having finished The Front End Development Foundations class at the end of June.</p>
-        <br>
-        <p class="aboutMeTxt">For the next month I'm immersed in the Software Development Foundations class, focusing all of my energy on Node.js.</p>
+          </div>
+        </div>
       </div>
+
+
+      <br>
+      <br>
 
       <!-- Technical Skills Section -->
 
-      <div class="well well-sm">
+      <div class="well well-sm" id="skills_container">
         <p class="headlineTxt">What Do I Know?</p>
       </div>
-      <div class="well well-lg">
+      <div class="well well-lg skills_container">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -90,7 +98,7 @@
         </div>
       </div>
 
-      <div class="well well-lg">
+      <div class="well well-lg skills_container">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -128,11 +136,14 @@
         </div>
       </div>
 
+      <br>
+      <br>
+
       <!-- Projects Section -->
 
       <!-- Current Projects Section -->
-      <div class="well well-sm">
-        <p class="headlineTxt">What Have I Worked On?</p>
+      <div class="well well-sm" id="projects_container">
+        <p class="headlineTxt">What Have I Created?</p>
       </div>
 
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -147,11 +158,15 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
           <div class="item active">
+            <a href="http://codepen.io/BryanDuplantis/full/ZGGQoj/">
             <img src="images/Weatherv2.jpg" alt="Weather Or Not">
           </div>
+            </a>
           <div class="item">
-            <img src="images/Quotev1.jpg" alt="Don't Quote Me">
+            <a href="http://dontquoteme.bryanduplantis.com">
+            <img src="images/Quotev2.jpg" alt="Don't Quote Me">
           </div>
+            </a>
           <div class="item">
             <img src="images/ShowMeTheMoviev1.jpg" alt="Show Me The Movie">
           </div>
@@ -172,10 +187,10 @@
 
       <!-- Contact Form -->
 
-      <div class="container">
+      <div class="container" id="contact_container">
         <div class="row">
           <div class="col-md-12">
-            <div class="well well-sm">
+            <div class="well well-lg">
               <form class="form-horizontal" method="post">
                 <fieldset>
                     <legend class="text-center header">Contact Me</legend>
