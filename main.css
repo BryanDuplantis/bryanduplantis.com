@@ -56,12 +56,12 @@ p {
 }
 
 .well-sm {
-  background: #D9FFD9;
+  background: rgb(0, 204, 255);
   margin-top: 45px;
 }
 
 .well-lg {
-  background: #FFFFDE;
+  background: rgb(230, 230, 230);
 }
 
 .profilePic {
@@ -86,7 +86,7 @@ p {
 }
 
 .skills_container {
-  background: lightyellow;
+  background: rgb(178, 240, 255);
 }
 
 #navTopText {
@@ -94,6 +94,11 @@ p {
   font-size: 25px;
   color: white;
   margin-top: 10px;
+}
+
+.text-center {
+  font-family: 'Special Elite';
+  font-size: 40px;
 }
 
 .submitBtn {
