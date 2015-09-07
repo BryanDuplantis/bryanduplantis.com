@@ -29,6 +29,7 @@ p {
 
 .aboutMeTxt {
   text-align: left;
+  font-size: 4.5vmin;
 }
 
 .aboutMe {
@@ -56,6 +57,7 @@ p {
 
 .well-sm {
   background: #D9FFD9;
+  margin-top: 45px;
 }
 
 .well-lg {

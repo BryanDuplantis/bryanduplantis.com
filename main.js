@@ -1,3 +1,4 @@
+// jQuery for smooth page scroll to an anchor tag
 $(document).ready(function(){
   $('a[href^="#"]').on('click',function (e) {
       e.preventDefault();
