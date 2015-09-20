@@ -94,6 +94,10 @@ p {
   background: rgb(178, 240, 255);
 }
 
+.bottom_container {
+   margin-bottom: 50px;
+}
+
 #navTopText {
   font-family: 'Special Elite';
   font-size: 25px;
