@@ -25,6 +25,7 @@ p {
   margin-top: 30px;
   height: 350px;
   width: 300px;
+  border-radius: 20px;
 }
 
 .aboutMeTxt {
@@ -38,7 +39,7 @@ p {
 
 .headlineTxt {
   font-size: 40px;
-  margin: auto;
+  margin-bottom: 50px;
 }
 
 #navBarName {
@@ -62,28 +63,20 @@ p {
 
 .portfolio-item {
   margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 .quotePic {
   height: 395px;
 }
 
+
 .moviePic {
   height: 400px;
 }
 
-.page-header {
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
-  border-bottom: 1px solid #eee;
-}
-
 .well-sm {
   margin-top: 45px;
-}
-
-.profilePic {
-  border-radius: 20px;
 }
 
 .fa {
@@ -97,12 +90,6 @@ p {
   color: black;
 }
 
-.carousel-inner img {
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
 .skills_container {
   background: rgb(178, 240, 255);
 }
@@ -112,6 +99,10 @@ p {
   font-size: 25px;
   color: white;
   margin-top: 10px;
+}
+
+#stocksQuoteTxt {
+  margin-bottom: 100px;
 }
 
 .text-center {
